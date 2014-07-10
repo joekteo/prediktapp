@@ -1,5 +1,5 @@
 h1 Upcoming Games
-.well
+.well ng-controller="PrivateProfileCtrl"
   .well.well-white data-ng-repeat="match in matches | limitTo: 10"
 
     .row.game-information
@@ -20,7 +20,7 @@ h1 Upcoming Games
 
     .row.game-buttons
       .col-md-3
-        button.btn.btn-primary type="button"
+        button.btn.btn-primary type="button" data-ng-click="bet(match.id, 'home')"
           | Home ({{match.home_odds}})
       .col-md-3
         button.btn.btn-success type="button"
