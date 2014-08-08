@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/nesquena/rabl.git
-  revision: c3861014a0622d293d570140ea19534b44c3e706
+  revision: 395e30dd4f774eb9ba6d916e8e41a31d282bc076
   specs:
     rabl (0.10.1)
       activesupport (>= 2.3.14)
@@ -72,7 +72,7 @@ GEM
       lumberjack (~> 1.0)
       pry (>= 0.9.12)
       thor (>= 0.18.1)
-    guard-rspec (4.2.10)
+    guard-rspec (4.3.1)
       guard (~> 2.1)
       rspec (>= 2.14, < 4.0)
     hashie (3.2.0)
@@ -100,7 +100,7 @@ GEM
     mini_portile (0.6.0)
     minitest (4.7.5)
     multi_json (1.10.1)
-    nokogiri (1.6.3)
+    nokogiri (1.6.3.1)
       mini_portile (= 0.6.0)
     oj (2.9.9)
     pg (0.17.1)
@@ -138,12 +138,12 @@ GEM
       rspec-core (~> 3.0.0)
       rspec-expectations (~> 3.0.0)
       rspec-mocks (~> 3.0.0)
-    rspec-core (3.0.2)
+    rspec-core (3.0.3)
       rspec-support (~> 3.0.0)
-    rspec-expectations (3.0.2)
+    rspec-expectations (3.0.3)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.0.0)
-    rspec-mocks (3.0.2)
+    rspec-mocks (3.0.3)
       rspec-support (~> 3.0.0)
     rspec-rails (3.0.0)
       actionpack (>= 3.0)
@@ -153,7 +153,7 @@ GEM
       rspec-expectations (~> 3.0.0)
       rspec-mocks (~> 3.0.0)
       rspec-support (~> 3.0.0)
-    rspec-support (3.0.2)
+    rspec-support (3.0.3)
     select2-rails (3.5.9)
       thor (~> 0.14)
     slim (2.0.3)
